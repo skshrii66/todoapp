@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOdo app</title>
+</head>
+<!-- stylesheet -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/
+ font-awesome/5.15.4/css/all.min.css" />
+<body>
+   <h1>TODO App</h1> 
+   <div class="container">
+    <div class="input1"></div>
+    <div class="input2"></div>
+   </div>
+
+    <div class="input1">
+        <form id="form">
+            <label for="post"> Write Your Post Here...</label>
+        <br><br>  
+            <textarea name="post" 
+            id="formValidation" cols="60"
+             rows="20"></textarea>
+        <br> <br>
+            <div id="showingMessage"></div>
+            <button type="submit">Post</button>
+        </form>
+    </div>
+
+
+    <div class="input2">
+        <h2>your posts here</h2>
+        <div id="posts"></div>
+    </div>
+    
+   
+   
+
+   <div id="posts">
+    <div>
+        <p>post 1box</p>
+        <span class="options">
+            <i onClick = "edit(this)"class="fas fa-edit"></i>
+            <i  onClick = "trash(this)"class="fas fa-trash-alt"></i>
+        </span>
+    </div>
+
+    <div>
+        <p>post 2box</p>
+        <span class="opitons">
+            <i onClick = "edit(this)"    class="fas fa-edit"></i>
+            <i  onClick = "trash(this)"class="fas fa-trash-alt"></i>
+        </span>
+    </div>
+
+   </div>
+   
+    <!-- script -->
+<script src="./script.js"></script>
+</body>
+
+</html>

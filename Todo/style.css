@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    width: 400px;
+    height: 600px;
+    border: 5px solid gray;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px;
+    overflow-y: scroll;
+    /* overflow-x: scroll; */
+}
+
+#addNew{
+    display: flex;
+    background-color: rgba(171, 206, 161, 0.35);
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* 
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+
+/* #dateInput{ */
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+} */
+
+.fa-plus {
+    background-color: gray;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#tasks div{
+    background-color: lightsteelblue;
+    border: 3px solid gray;
+    padding: 5px;
+    border-radius: 6px;
+    gap: 4px;
+}
+
+#tasks{
+    display: grid;
+    gap: 14px;
+}
+
+#tas {
+    font-weight: 600;
+}
+
+#tasks p{
+    /* text-align: center; */
+    font-weight: 700;
+}
+
+.options{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.options i{
+    cursor: pointer;
+}
